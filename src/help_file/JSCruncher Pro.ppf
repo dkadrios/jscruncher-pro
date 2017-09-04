@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!DOCTYPE polprojfile>
+<ppfml version="1.00" project="JSCruncher Pro">
+ <windowlist>
+ </windowlist>
+ <contextmap>
+ </contextmap>
+ <topiclist defaulttopic="Getting_Started.htm">
+  <topic>Getting_Started.htm
+  </topic>
+  <topic>Definitions\Obfuscation.htm
+  </topic>
+  <topic>Definitions\Map_Files.htm
+  </topic>
+  <topic>Topics\Leaving_Public_References_Intact.htm
+  </topic>
+ </topiclist>
+ <projectincludes>
+ </projectincludes>
+ <filenamemap>
+ </filenamemap>
+</ppfml>

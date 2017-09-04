@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Project consumer="JSCruncher Pro" version="2.3.0.3">
+  <DoCompressFiles>True</DoCompressFiles>
+  <DoManageFiles>True</DoManageFiles>
+  <FilesToCompress>
+    <Item>
+      <InputFolder>C:\d4\</InputFolder>
+      <OutputFolder>C:\d4\</OutputFolder>
+      <Mask>JS files (*.js)</Mask>
+      <DoSubDirs>True</DoSubDirs>
+      <Prefix></Prefix>
+      <Suffix></Suffix>
+    </Item>
+  </FilesToCompress>
+  <FilesToManage>
+    <Item>
+      <InputFolder>C:\d4\</InputFolder>
+      <OutputFolder>C:\d4\</OutputFolder>
+      <Mask>HTML files (*.htm)</Mask>
+      <DoSubDirs>True</DoSubDirs>
+      <Prefix></Prefix>
+      <Suffix></Suffix>
+      <UseCompressed>True</UseCompressed>
+    </Item>
+  </FilesToManage>
+  <Settings>
+    <Basic>
+      <Preamble>// Compressed and obfuscated by JSCruncher Pro.\r\n// www.nebiru.com/jscruncherpro</Preamble>
+      <DoPreamble>True</DoPreamble>
+      <DoCompress>True</DoCompress>
+      <DoObfuscate>True</DoObfuscate>
+      <DoAutoFixSemicolons>False</DoAutoFixSemicolons>
+      <LogFolder>C:\sourcecode\nebiru\jscruncher_pro\build\logs\</LogFolder>
+      <MapFolder>C:\sourcecode\nebiru\jscruncher_pro\build\maps\</MapFolder>
+      <UserDefinedMap>user_defined.jmap</UserDefinedMap>
+      <OutputFolder>C:\sourcecode\nebiru\jscruncher_pro\build\output\</OutputFolder>
+      <MapFilesToUse>domapi_4.jmap;ecma.jmapx;style.jmapx</MapFilesToUse>
+      <JSMask>*.js</JSMask>
+      <HTMMask>*.htm*</HTMMask>
+    </Basic>
+    <FineTuning>
+      <RemoveExtraSemicolons>True</RemoveExtraSemicolons>
+      <RemoveWhitespace>True</RemoveWhitespace>
+      <RemoveComments>True</RemoveComments>
+      <CombineLiteralStrings>True</CombineLiteralStrings>
+      <RemoveTabs>True</RemoveTabs>
+      <RemoveLineFeeds>True</RemoveLineFeeds>
+      <RemoveCarriageReturns>True</RemoveCarriageReturns>
+      <RemoveFormFeeds>True</RemoveFormFeeds>
+      <RemoveExtraSpaces>True</RemoveExtraSpaces>
+    </FineTuning>
+    <PuctuationMarks>
+      <All>+;(){}*-=/,!&lt;&gt;?:|&amp;%</All>
+      <NoWhitespaceBefore>+;(){}*-=/,!&lt;&gt;?:|&amp;%</NoWhitespaceBefore>
+      <NoWhiteSpaceAfter>+;(){}*-=/,!&lt;&gt;?:|&amp;%</NoWhiteSpaceAfter>
+    </PuctuationMarks>
+  </Settings>
+</Project>

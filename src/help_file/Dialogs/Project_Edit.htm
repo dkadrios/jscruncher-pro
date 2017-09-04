@@ -1,0 +1,301 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<!--(==============================================================)-->
+<!--(Document created with RoboEditor. )============================-->
+<!--(==============================================================)-->
+
+<head>
+
+<title>Project Edit</title>
+
+<!--(Meta)==========================================================-->
+
+<meta http-equiv=content-type content="text/html; charset=windows-1252">
+<meta name=generator content="RoboHELP by eHelp Corporation - www.ehelp.com">
+<meta name=generator-major-version content=0.1>
+<meta name=generator-minor-version content=1>
+<meta name=filetype content=kadov>
+<meta name=filetype-version content=1>
+<meta name=page-count content=1>
+<meta name=layout-height content=1488>
+<meta name=layout-width content=614>
+
+
+<!--(Links)=========================================================-->
+
+<link rel="StyleSheet" href="..\default.css">
+
+
+
+</head>
+
+<!--(Body)==========================================================-->
+
+
+<body>
+
+<h1>Create / edit Project Dialog</h1>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold;"><a href="#General"
+														style="font-weight: bold;">General</a></p></li>
+	
+	<ul style="list-style: disc;"
+		type=disc>
+		
+		<li class=kadov-p><p><a href="#generalSettings">Settings</a></p></li>
+	</ul>
+	
+	<li class=kadov-p><p style="font-weight: bold;"><a href="#Compression">Compression</a></p></li>
+	
+	<ul style="list-style: disc;"
+		type=disc>
+		
+		<li class=kadov-p><p><a href="#compressionSelections">Selections</a></p></li>
+		
+		<li class=kadov-p><p><a href="#CompressionSettings">Settings</a></p></li>
+		
+		<li class=kadov-p><p><a href="#Obfuscation">Obfuscation</a></p></li>
+		
+		<li class=kadov-p><p><a href="#Advanced">Advanced</a></p></li>
+	</ul>
+	
+	<li class=kadov-p><p style="font-weight: bold;"><a href="#Tag_Management"
+														style="font-weight: bold;">Tag 
+ Management</a></p></li>
+	
+	<ul style="list-style: disc;"
+		type=disc>
+		
+		<li class=kadov-p><p><a href="#manageSelections">Selections</a></p></li>
+		
+		<li class=kadov-p><p><a href="#manageSettings">Settings</a></p></li>
+	</ul>
+</ul>
+
+<p>&nbsp;</p>
+
+<h3><a name=General>General</a></h3>
+
+<p class=Title><a name=generalSettings>Settings</a></p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Project 
+ name</p></li>
+</ul>
+
+<p style="margin-left: 40px;">The name of this project. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->Used 
+ only for display in the UI.</p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Allow 
+ this project to...</p></li>
+</ul>
+
+<p style="margin-left: 40px;">This allows you to control what tasks are 
+ active in the project. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->They 
+ can be useful when debugging a project as they allow you to turn off one 
+ aspect of the project without affecting it's current settings.</p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Log 
+ folder</p></li>
+</ul>
+
+<p style="margin-left: 40px;">Location to output any log files.</p>
+
+<h3><a name=Compression>Compression</a></h3>
+
+<p class=Title><a name=compressionSelections>Selections</a></p>
+
+<p style="margin-left: 40px;">Use the <a href="Add_Edit_File_Selection.htm">Add, 
+ Edit</a> or Remove buttons to edit the file selections.</p>
+
+<p class=Title>&nbsp;</p>
+
+<p class=Title><a name=CompressionSettings>Settings</a></p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Preamble</p></li>
+</ul>
+
+<p style="margin-left: 40px;">When enabled, the program will prepend the 
+ content of compressed files with the text provided. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->This 
+ can be used to insert a copyright notice or warranty disclaimer.</p>
+
+<p class=Title>&nbsp;</p>
+
+<p class=Title><a name=Obfuscation>Obfuscation</a></p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Obfuscation 
+ enabled</p></li>
+</ul>
+
+<p style="margin-left: 40px;">When checked, the compression engine will 
+ <a href="../Definitions/Obfuscation.htm">obfuscate</a> files by replacing 
+ tokens with random gibberish - making it harder for someone to reverse 
+ engineer your code.</p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Map 
+ files to use</p></li>
+</ul>
+
+<p style="margin-left: 40px;">Check off which <a href="../Definitions/Map_Files.htm">maps 
+ files</a> the obfuscation routines should use when looking up tokens.</p>
+
+<p class=Title>&nbsp;</p>
+
+<p class=Title><a name=Advanced>Advanced</a></p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Compression 
+ enabled</p></li>
+</ul>
+
+<p style="margin-left: 40px;">When not checked, the program will not perform 
+ any compression routines at all. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->Note 
+ that this is independent of the obfuscation routines. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->You 
+ can still obfuscate even if compression is turned off. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->This 
+ can be useful when debugging your code.</p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Insert 
+ missing semicolons</p></li>
+</ul>
+
+<p style="margin-left: 40px;">When carriage returns are removed, it is 
+ important that your code be well-formed and have each line end with a 
+ semicolon. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->Normally, 
+ the compression engine warns you when it detects that you omitted a semicolon, 
+ but you can also have it try to fix the missing one by checking this option. 
+ <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->Note that 
+ JSCruncher cannot always detect when a semicolon is missing. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->99% 
+ of the time it is accurate, but there could be false positives and false 
+ negatives, depending on your coding style. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->It 
+ is recommended that you do not have the program automatically replace 
+ missing semi-colons, but you do have that option.</p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Remove 
+ comments</p></li>
+</ul>
+
+<p style="margin-left: 40px;">The program will remove both inline and block 
+ comments when this option is enabled.</p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Remove 
+ extra whitespace</p></li>
+</ul>
+
+<p style="margin-left: 40px;">The engine will remove any of the specified 
+ whitespace elements (tabs, carriage returns, etc..). <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->The 
+ engine will also remove any whitespace around the symbols indicated in 
+ the <a href="#SymbolsGrid">symbols grid</a>.</p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Remove 
+ extraneous semicolons</p></li>
+</ul>
+
+<p style="margin-left: 40px;">If the engine encounters a semicolon that 
+ it feels is not necessary, it will remove it. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->This 
+ can include the last line in a function, the last line in a file or when 
+ more that one semicolon appear back-to-back.</p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Combine 
+ literal strings</p></li>
+</ul>
+
+<p style="margin-left: 40px;">If the engine encounters areas where strings 
+ are being added together such as:</p>
+
+<p class=Code
+	style="margin-left: 40px;">var s = 'the first string ' +</p>
+
+<p class=Code><!--kadov_tag{{<spaces>}}-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--kadov_tag{{</spaces>}}-->'the 
+ second string';</p>
+
+<p style="margin-left: 40px;">... it will reduce this to:</p>
+
+<p class=Code
+	style="margin-left: 40px;">var s = 'the first string <span style="margin-left: 40px;">the 
+ second string';</span></p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ "><a 
+ name=SymbolsGrid>Symbols grid</a></p></li>
+</ul>
+
+<p style="margin-left: 40px;
+			font-weight: normal;
+			x-text-underline: off;
+			/*begin!kadov{{*/ text-decoration: none; /*}}end!kadov*/ ">The 
+ symbols grid defines which symbols will have whitespace trimmed from around 
+ them. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->There 
+ are two columns, one for before the symbol and one for after. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->You 
+ can add or remove symbols, or check and un-check entries as desired. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->Normally 
+ the defaults are sufficient, but depending on your coding style, you may 
+ need to tweak them.</p>
+
+<h3><a name=Tag_Management>Tag Management</a></h3>
+
+<p class=Title><a name=manageSelections>Selections</a></p>
+
+<p style="margin-left: 40px;">Use the <a href="Add_Edit_File_Selection.htm">Add, 
+ Edit</a> or Remove buttons to edit the file selections.</p>
+
+<p class=Title>&nbsp;</p>
+
+<p class=Title><a name=manageSettings>Settings</a></p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Script 
+ tags should use...</p></li>
+</ul>
+
+<p style="margin-left: 40px;">More than likely you will want the files 
+ to be using the compressed filenames.</p>
+
+<p class=Title>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+</body>
+
+</html>

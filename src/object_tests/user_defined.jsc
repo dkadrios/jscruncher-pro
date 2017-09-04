@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Settings name="user_defined" consumer="JSCruncher Pro" version="">
+  <Basic>
+    <Preamble>// Compressed and obfuscated by JSCruncher Pro.\r\n// www.nebiru.com/jscruncherpro</Preamble>
+    <DoPreamble>True</DoPreamble>
+    <DoCompress>True</DoCompress>
+    <DoObfuscate>False</DoObfuscate>
+    <DoAutoFixSemicolons>False</DoAutoFixSemicolons>
+    <DoEmptyOutputFolder>False</DoEmptyOutputFolder>
+    <OutputFolder>C:\sourcecode\nebiru\jscruncher_pro\object_tests\output\</OutputFolder>
+    <LogFolder>C:\sourcecode\nebiru\jscruncher_pro\object_tests\logs\</LogFolder>
+    <MapFolder>C:\sourcecode\nebiru\jscruncher_pro\object_tests\maps\</MapFolder>
+    <Prefix></Prefix>
+    <Suffix>_c</Suffix>
+    <UserDefinedMap>user_defined.map</UserDefinedMap>
+    <MapFilesToUse>ecma.mapx;style.mapx;user_defined.map;;</MapFilesToUse>
+    <DoSaveObfuscationLog>True</DoSaveObfuscationLog>
+    <ManageUsesCompressed>True</ManageUsesCompressed>
+    <JSMask>*.js</JSMask>
+    <HTMMask>*.htm*</HTMMask>
+  </Basic>
+  <FineTuning>
+    <RemoveExtraSemicolons>True</RemoveExtraSemicolons>
+    <RemoveWhitespace>True</RemoveWhitespace>
+    <RemoveComments>True</RemoveComments>
+    <CombineLiteralStrings>True</CombineLiteralStrings>
+    <RemoveTabs>True</RemoveTabs>
+    <RemoveLineFeeds>True</RemoveLineFeeds>
+    <RemoveCarriageReturns>True</RemoveCarriageReturns>
+    <RemoveFormFeeds>True</RemoveFormFeeds>
+    <RemoveExtraSpaces>True</RemoveExtraSpaces>
+  </FineTuning>
+  <PuctuationMarks>
+    <All>+;(){}*-=/,!&lt;&gt;?:|&amp;%</All>
+    <NoWhitespaceBefore>+;(){}*-=/,!&lt;&gt;?:|&amp;%</NoWhitespaceBefore>
+    <NoWhiteSpaceAfter>+;(){}*-=/,!&lt;&gt;?:|&amp;%</NoWhiteSpaceAfter>
+  </PuctuationMarks>
+</Settings>

@@ -1,0 +1,151 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{08224df7-6927-4ab9-a334-3a5b9846d2c4}</ProjectGuid>
+    <MainSource>JSCrunch.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>build\JSCrunch.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_WriteableConstants>True</DCC_WriteableConstants>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_Optimize>False</DCC_Optimize>
+    <DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+    <DCC_RangeChecking>True</DCC_RangeChecking>
+    <DCC_GenerateStackFrames>True</DCC_GenerateStackFrames>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_ExeOutput>build</DCC_ExeOutput>
+    <DCC_UnitSearchPath>$(DELPHI)\Lib\Debug;C:\SourceCode\support_units\components\Cipher\Source;C:\SourceCode\support_units\JCL_HTMLHelp\Pas;C:\sourcecode\Support_Units\dna</DCC_UnitSearchPath>
+    <DCC_ResourcePath>$(DELPHI)\Lib\Debug;C:\SourceCode\support_units\components\Cipher\Source;C:\SourceCode\support_units\JCL_HTMLHelp\Pas;C:\sourcecode\Support_Units\dna</DCC_ResourcePath>
+    <DCC_ObjPath>$(DELPHI)\Lib\Debug;C:\SourceCode\support_units\components\Cipher\Source;C:\SourceCode\support_units\JCL_HTMLHelp\Pas;C:\sourcecode\Support_Units\dna</DCC_ObjPath>
+    <DCC_IncludePath>$(DELPHI)\Lib\Debug;C:\SourceCode\support_units\components\Cipher\Source;C:\SourceCode\support_units\JCL_HTMLHelp\Pas;C:\sourcecode\Support_Units\dna</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+    <DCC_SYMBOL_PLATFORM>False</DCC_SYMBOL_PLATFORM>
+    <DCC_UNIT_PLATFORM>False</DCC_UNIT_PLATFORM>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_WriteableConstants>True</DCC_WriteableConstants>
+    <DCC_Optimize>False</DCC_Optimize>
+    <DCC_IntegerOverflowCheck>True</DCC_IntegerOverflowCheck>
+    <DCC_RangeChecking>True</DCC_RangeChecking>
+    <DCC_GenerateStackFrames>True</DCC_GenerateStackFrames>
+    <DCC_SymbolReferenceInfo>2</DCC_SymbolReferenceInfo>
+    <DCC_ExeOutput>build</DCC_ExeOutput>
+    <DCC_UnitSearchPath>$(DELPHI)\Lib\Debug;C:\SourceCode\support_units\components\Cipher\Source;C:\SourceCode\support_units\JCL_HTMLHelp\Pas;C:\sourcecode\Support_Units\dna</DCC_UnitSearchPath>
+    <DCC_ResourcePath>$(DELPHI)\Lib\Debug;C:\SourceCode\support_units\components\Cipher\Source;C:\SourceCode\support_units\JCL_HTMLHelp\Pas;C:\sourcecode\Support_Units\dna</DCC_ResourcePath>
+    <DCC_ObjPath>$(DELPHI)\Lib\Debug;C:\SourceCode\support_units\components\Cipher\Source;C:\SourceCode\support_units\JCL_HTMLHelp\Pas;C:\sourcecode\Support_Units\dna</DCC_ObjPath>
+    <DCC_IncludePath>$(DELPHI)\Lib\Debug;C:\SourceCode\support_units\components\Cipher\Source;C:\SourceCode\support_units\JCL_HTMLHelp\Pas;C:\sourcecode\Support_Units\dna</DCC_IncludePath>
+    <DCC_Define>DEBUG</DCC_Define>
+    <DCC_SYMBOL_PLATFORM>False</DCC_SYMBOL_PLATFORM>
+    <DCC_UNIT_PLATFORM>False</DCC_UNIT_PLATFORM>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject xmlns=""> <Delphi.Personality>   <Parameters>
+      <Parameters Name="UseLauncher">False</Parameters>
+      <Parameters Name="LoadAllSymbols">True</Parameters>
+      <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+    </Parameters>
+    <VersionInfo>
+      <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+      <VersionInfo Name="AutoIncBuild">True</VersionInfo>
+      <VersionInfo Name="MajorVer">3</VersionInfo>
+      <VersionInfo Name="MinorVer">5</VersionInfo>
+      <VersionInfo Name="Release">0</VersionInfo>
+      <VersionInfo Name="Build">3</VersionInfo>
+      <VersionInfo Name="Debug">False</VersionInfo>
+      <VersionInfo Name="PreRelease">False</VersionInfo>
+      <VersionInfo Name="Special">False</VersionInfo>
+      <VersionInfo Name="Private">False</VersionInfo>
+      <VersionInfo Name="DLL">False</VersionInfo>
+      <VersionInfo Name="Locale">1033</VersionInfo>
+      <VersionInfo Name="CodePage">1252</VersionInfo>
+    </VersionInfo>
+    <VersionInfoKeys>
+      <VersionInfoKeys Name="CompanyName">Nebiru Software</VersionInfoKeys>
+      <VersionInfoKeys Name="FileDescription">Javascript Compressor</VersionInfoKeys>
+      <VersionInfoKeys Name="FileVersion">3.5.0.3</VersionInfoKeys>
+      <VersionInfoKeys Name="InternalName">JSCruncher</VersionInfoKeys>
+      <VersionInfoKeys Name="LegalCopyright">Copyright 2001-2002 Nebiru Software</VersionInfoKeys>
+      <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+      <VersionInfoKeys Name="OriginalFilename">JSCruncher.exe</VersionInfoKeys>
+      <VersionInfoKeys Name="ProductName">JSCruncher</VersionInfoKeys>
+      <VersionInfoKeys Name="ProductVersion">2.1.0.0</VersionInfoKeys>
+      <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+    </VersionInfoKeys>
+    <Source>
+      <Source Name="MainSource">JSCrunch.dpr</Source>
+    </Source>
+  </Delphi.Personality> </BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <ItemGroup />
+  <ItemGroup>
+    <DelphiCompile Include="JSCrunch.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="..\..\Support_Units\components\WebBrowserWithUI\WebBrowserWithUI.pas" />
+    <DCCReference Include="About.pas">
+      <Form>AboutDlg</Form>
+    </DCCReference>
+    <DCCReference Include="Activate.pas">
+      <Form>FActivate</Form>
+    </DCCReference>
+    <DCCReference Include="Activation_code.pas">
+      <Form>FActivation_code</Form>
+    </DCCReference>
+    <DCCReference Include="backgroundTask.pas">
+      <Form>backgroundTaskDlg</Form>
+    </DCCReference>
+    <DCCReference Include="C:\Support_Units\components\AMHelper.pas" />
+    <DCCReference Include="C:\Support_Units\darin\MouseOverPanel\mouseoverpanel.pas" />
+    <DCCReference Include="confirmation.pas">
+      <Form>ConfirmationDlg</Form>
+    </DCCReference>
+    <DCCReference Include="dirscan.pas" />
+    <DCCReference Include="editFileset.pas">
+      <Form>editFilesetDlg</Form>
+    </DCCReference>
+    <DCCReference Include="editor\dlgSearchText.pas">
+      <Form>TextSearchDialog</Form>
+    </DCCReference>
+    <DCCReference Include="editProject.pas">
+      <Form>editProjectDlg</Form>
+    </DCCReference>
+    <DCCReference Include="environmentSettings.pas">
+      <Form>environmentSettingsDlg</Form>
+    </DCCReference>
+    <DCCReference Include="help.pas" />
+    <DCCReference Include="images.pas" />
+    <DCCReference Include="mapChooser.pas">
+      <Form>mapChooserDlg</Form>
+    </DCCReference>
+    <DCCReference Include="objects.pas" />
+    <DCCReference Include="orphanedTokens.pas">
+      <Form>orphanedTokensDlg</Form>
+    </DCCReference>
+    <DCCReference Include="Protection.pas" />
+    <DCCReference Include="Reactivate.pas">
+      <Form>FReactivate</Form>
+    </DCCReference>
+    <DCCReference Include="RegExpr.pas" />
+    <DCCReference Include="requestEvalCode.pas">
+      <Form>requestEvalCodeDlg</Form>
+    </DCCReference>
+    <DCCReference Include="settings.pas" />
+    <DCCReference Include="ShellCtrls.pas" />
+    <DCCReference Include="splash.pas">
+      <Form>splashDlg</Form>
+    </DCCReference>
+    <DCCReference Include="TransformStartPage.pas" />
+    <DCCReference Include="Unit1.pas">
+      <Form>Form1</Form>
+    </DCCReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+</Project>

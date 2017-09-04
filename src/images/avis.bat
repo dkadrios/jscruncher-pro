@@ -1,0 +1,1 @@
+C:\Progra~1\Borland\Delphi7\Bin\BRCC32.EXE avis.rc

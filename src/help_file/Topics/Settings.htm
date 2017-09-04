@@ -1,0 +1,226 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//EN">
+
+<html>
+
+<!--(==============================================================)-->
+<!--(Document created with RoboEditor. )============================-->
+<!--(==============================================================)-->
+
+<head>
+
+<title>Settings</title>
+
+<!--(Meta)==========================================================-->
+
+<meta http-equiv=content-type content="text/html; charset=windows-1252">
+<meta name=generator content="RoboHELP by eHelp Corporation - www.ehelp.com">
+<meta name=generator-major-version content=0.1>
+<meta name=generator-minor-version content=1>
+<meta name=filetype content=kadov>
+<meta name=filetype-version content=1>
+<meta name=page-count content=1>
+<meta name=layout-height content=934>
+<meta name=layout-width content=775>
+
+
+<!--(Links)=========================================================-->
+
+<link rel="StyleSheet" href="..\default.css">
+
+
+
+</head>
+
+<!--(Body)==========================================================-->
+
+
+<body>
+
+<h1>Settings</h1>
+
+<p>The settings screen is divided into 4 main parts:</p>
+
+<p>&nbsp;</p>
+
+<p class=Title><a href="#Preamble">Preamble</a></p>
+
+<p class=Title><a href="#Compression">Compression</a></p>
+
+<p class=Title><a href="#Obfuscation">Obfuscation</a></p>
+
+<p class=Title><a href="#Miscellaneous">Miscellaneous</a></p>
+
+<p>&nbsp;</p>
+
+<p class=Title><a name=Preamble>Preamble</a></p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Preamble 
+ text</p></li>
+</ul>
+
+<p style="margin-left: 40px;">JSCruncher can automatically add a comment 
+ header to every file it compresses. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->This 
+ allows you to maintain copyright information etc., that would otherwise 
+ be stripped during the compression operation. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}--></p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold;
+								x-text-underline: normal;
+								margin-left: 0px;
+								/*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Preamble 
+ enabled</p></li>
+</ul>
+
+<p style="margin-left: 40px;"><span style="margin-left: 40px;">Use the 
+ edit control on this tab to set your desired preamble. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->There 
+ is also a checkbox for turning the preamble function on/off.</span></p>
+
+<p>&nbsp;</p>
+
+<p class=Title><a name=Compression>Compression</a></p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Repository</p></li>
+</ul>
+
+<p style="margin-left: 40px;">This the root folder for the compression 
+ output. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->All 
+ files you process will end up under this folder, keeping their original 
+ path intact. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->For 
+ instance, if compress the file c:\my files\tools.js <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->and 
+ your repository is c:\jscrunch\repository\ , the compressed version of 
+ tools.js will wind up in c:\jscrunch\repository\c\my tools\.</p>
+
+<p style="margin-left: 40px;">Your repository can be a local folder, a 
+ network share or UNC.</p>
+
+<p style="margin-left: 40px;"><span style="font-weight: bold;">note: while 
+ you can specify your root drive as the repository, it is not recommended. 
+ <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->This will 
+ cause your original files to be replaced by the compressed versions.</span> 
+ <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}--></p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">File 
+ prefix</p></li>
+</ul>
+
+<p style="margin-left: 40px;">If specified, this value will be prepended 
+ to all compressed file names.</p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">File 
+ postfix</p></li>
+</ul>
+
+<p style="margin-left: 40px;">If specified, this value will appended to 
+ all compressed file names.</p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Report 
+ missing semicolons</p></li>
+</ul>
+
+<p style="margin-left: 40px;">When enabled, the application will alert 
+ you to any missing semicolons. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->It 
+ is recommended that you leave this turned on. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->Missing 
+ semicolons can cause your compressed scripts to malfunction.</p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Automatically 
+ fix missing semicolons</p></li>
+</ul>
+
+<p style="margin-left: 40px;">When enabled, the validation engine will 
+ attempt to replace any missing semicolons it encounters. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->This 
+ will not alter your original files, only the compressed copies.</p>
+
+<p>&nbsp;</p>
+
+<p class=Title><a name=Obfuscation>Obfuscation</a></p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Location 
+ of map files</p></li>
+</ul>
+
+<p style="margin-left: 40px;">This is the path that JSCruncher will search 
+ when looking for obfuscation map files. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->This 
+ can be a local folder, a network share or UNC.</p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Where 
+ to save log files</p></li>
+</ul>
+
+<p style="margin-left: 40px;">Where to save the log files if 'Auto save 
+ logs' is enabled. This can be a local folder, a network share or UNC. 
+ </p>
+
+<p style="margin-left: 40px; font-weight: bold;">note: you can also save 
+ the log file displayed in the GUI, even if this option is disabled.</p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Obfuscation 
+ enabled</p></li>
+</ul>
+
+<p style="margin-left: 40px;">Turns obfuscation on/off.</p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Auto 
+ save logs</p></li>
+</ul>
+
+<p style="margin-left: 40px;">When obfuscation is enabled, JSCruncher will 
+ create a log file for each compression session listing the map substitutions 
+ it performed. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->This 
+ is very useful when setting up your initial map files. The log is displayed 
+ in the GUI along the bottom of the application, but you can also have 
+ it automatically saved to file by enabling this option. </p>
+
+<p>&nbsp;</p>
+
+<p class=Title><a name=Miscellaneous>Miscellaneous</a></p>
+
+<ul style="list-style: disc;"
+	type=disc>
+	
+	<li class=kadov-p><p style="font-weight: bold; x-text-underline: normal; /*begin!kadov{{*/ text-decoration: underline; /*}}end!kadov*/ ">Name 
+ of default &quot;user defined&quot; map</p></li>
+</ul>
+
+<p style="margin-left: 40px;">In the log that appears at the bottom of 
+ the screen after obfuscation, are all the substitutions that JSCruncher 
+ made. <!--kadov_tag{{<spaces>}}-->&nbsp;<!--kadov_tag{{</spaces>}}-->If 
+ you right-click any of these and select &quot;Never replace&quot;, they 
+ are placed into what is known as the &quot;user defined&quot; map, which 
+ resides in the map folder with the other maps. Here you can change the 
+ name of this map file.</p>
+
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Project consumer="JSCruncher Pro" version="3.5.0.3">
+  <DoCompressFiles>True</DoCompressFiles>
+  <DoManageFiles>False</DoManageFiles>
+  <FilesToCompress>
+    <Item>
+      <InputFolder>C:\d4 files\src\</InputFolder>
+      <OutputFolder>C:\d4out\src\</OutputFolder>
+      <Mask>JS files (*.js)</Mask>
+      <DoSubDirs>True</DoSubDirs>
+      <Prefix></Prefix>
+      <Suffix></Suffix>
+    </Item>
+
+    <Item>
+      <InputFolder>C:\d4 files\src\debug\</InputFolder>
+      <OutputFolder>C:\d4out\src\debug\</OutputFolder>
+      <Mask>HTML files (*.htm)</Mask>
+      <DoSubDirs>False</DoSubDirs>
+      <Prefix></Prefix>
+      <Suffix></Suffix>
+    </Item>
+
+    <Item>
+      <InputFolder>C:\d4 files\themes\</InputFolder>
+      <OutputFolder>C:\d4out\themes\</OutputFolder>
+      <Mask>JS files (*.js)</Mask>
+      <DoSubDirs>True</DoSubDirs>
+      <Prefix></Prefix>
+      <Suffix></Suffix>
+    </Item>
+  </FilesToCompress>
+  <FilesToManage>  </FilesToManage>
+  <Settings>
+    <Basic>
+      <Preamble>Copyright (c) Nebiru Software 2001, 2008\r\n  Compressed and obfuscated by JSCruncher Pro.\r\n  http://domapi.com/jscruncherpro</Preamble>
+      <DoPreamble>True</DoPreamble>
+      <DoCompress>True</DoCompress>
+      <DoObfuscate>True</DoObfuscate>
+      <DoAutoFixSemicolons>False</DoAutoFixSemicolons>
+      <LogFolder>C:\sourcecode\nebiru\jscruncher_pro\build\logs\</LogFolder>
+      <MapFolder>C:\sourcecode\nebiru\jscruncher_pro\build\maps\</MapFolder>
+      <UserDefinedMap>user_defined.jmap</UserDefinedMap>
+      <OutputFolder>C:\sourcecode\nebiru\jscruncher_pro\build\output\</OutputFolder>
+      <MapFilesToUse>domapi_4.jmap;ecma.jmap;style.jmap</MapFilesToUse>
+      <DefaultPrefix></DefaultPrefix>
+      <DefaultSuffix>_c</DefaultSuffix>
+      <JSMask>*.js</JSMask>
+      <HTMMask>*.htm*</HTMMask>
+    </Basic>
+    <FineTuning>
+      <RemoveExtraSemicolons>True</RemoveExtraSemicolons>
+      <RemoveWhitespace>True</RemoveWhitespace>
+      <RemoveComments>True</RemoveComments>
+      <CombineLiteralStrings>True</CombineLiteralStrings>
+      <RemoveTabs>True</RemoveTabs>
+      <RemoveLineFeeds>True</RemoveLineFeeds>
+      <RemoveCarriageReturns>True</RemoveCarriageReturns>
+      <RemoveFormFeeds>True</RemoveFormFeeds>
+      <RemoveExtraSpaces>True</RemoveExtraSpaces>
+    </FineTuning>
+    <PuctuationMarks>
+      <All>+;(){}*-=/,!&lt;&gt;?:|&amp;%</All>
+      <NoWhitespaceBefore>+;(){}*-=/,!&lt;&gt;?:|&amp;%</NoWhitespaceBefore>
+      <NoWhiteSpaceAfter>+;(){}*-=/,!&lt;&gt;?:|&amp;%</NoWhiteSpaceAfter>
+    </PuctuationMarks>
+  </Settings>
+</Project>

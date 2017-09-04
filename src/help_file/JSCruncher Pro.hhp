@@ -1,0 +1,64 @@
+[OPTIONS]
+Compiled File=JSCruncher Pro.chm
+Title=JSCruncher Pro
+Contents File=JSCruncher Pro.hhc
+Index File=JSCruncher Pro.hhk
+Default topic=Getting_Started.htm
+Default Window=NewWindow
+Error log file=
+Display compile progress=No
+Display compile notes=No
+Full-text search=Yes
+Binary Index=No
+Auto Index=No
+Enhanced decompilation=No
+Binary TOC=No
+Flat=No
+Full text search stop list file=C:\sourcecode\nebiru\jscruncher_pro\help_file\JSCruncher Pro.stp
+
+[WINDOWS]
+NewWindow="JSCruncher Pro Help","JSCruncher Pro.hhc","JSCruncher Pro.hhk","","",,,,,0x40520,0,0x200e,[0,0,750,550],0x0,0x0,,0,0,0
+
+[FILES]
+Definitions\Obfuscation.htm
+Definitions\Map_Files.htm
+Topics\The_User_Interface\Obfuscation\Leaving_Public_References_Intact.htm
+Topics\Using_the_Command_Line_Tool.htm
+Topics\The_User_Interface\Obfuscation\Excluding_tokens.htm
+Definitions\Map_path.htm
+Topics\The_User_Interface\Settings.htm
+Getting_Started.htm
+Topics\The_User_Interface\Navigation_Pane.htm
+Topics\The_User_Interface\Obfuscation\Obfuscation_log.htm
+Definitions\User-defined_map_file.htm
+Topics\The_User_Interface\Panes\Home.htm
+Topics\The_User_Interface\Panes\Manage_Tags.htm
+Topics\The_User_Interface\Panes\Compress_Files.htm
+Topics\The_User_Interface\Panes\Compress_Text.htm
+Functions\Projects\Create_a_new_project.htm
+Dialogs\Project_Edit.htm
+Functions\Projects\Load_existing_project.htm
+Definitions\Projects.htm
+Topics\The_User_Interface\Message_Pane.htm
+Functions\Projects\Edit_project.htm
+Dialogs\Compression_Settings.htm
+Functions\Projects\Run_project.htm
+Functions\Projects\Save_project_as.htm
+Dialogs\Add_Edit_File_Selection.htm
+Definitions\Tag_Management.htm
+Topics\The_User_Interface\Obfuscation\User_Defined_Mapfile_Pane.htm
+Definitions\Compression.htm
+ehlpdhtm.js
+RoboHHRE.lng
+
+JSCruncher Pro.brs
+[ALIAS]
+#include JSCruncher Pro.ali
+
+[MAP]
+#include BSSCDefault.h
+
+[TEXT POPUPS]
+BSSCDefault.h
+
+

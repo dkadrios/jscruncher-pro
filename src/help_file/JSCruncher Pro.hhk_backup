@@ -1,0 +1,268 @@
+<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="SiteType" value="index">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Compress">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Files">
+      <param name="Name" value="Compress Files">
+      <param name="Local" value="Topics\The_User_Interface\Panes\Compress_Files.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Settings">
+      <param name="Name" value="Compression Settings">
+      <param name="Local" value="Dialogs\Compression_Settings.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Text">
+      <param name="Name" value="Compress Text">
+      <param name="Local" value="Topics\The_User_Interface\Panes\Compress_Text.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="GUI">
+    <param name="Name" value="Settings">
+    <param name="Local" value="Topics\The_User_Interface\Settings.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Home Page">
+    <param name="Name" value="Home">
+    <param name="Local" value="Topics\The_User_Interface\Panes\Home.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Manage Tags">
+    <param name="Name" value="Manage Tags">
+    <param name="Local" value="Topics\The_User_Interface\Panes\Manage_Tags.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Map File Types">
+    <param name="Name" value="Map Files">
+    <param name="Local" value="Definitions\Map_Files.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Map Files">
+    <param name="Name" value="Map Files">
+    <param name="Local" value="Definitions\Map_Files.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Structure">
+      <param name="Name" value="Map Files">
+      <param name="Local" value="Definitions\Map_Files.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Map path">
+    <param name="Name" value="Map path">
+    <param name="Local" value="Definitions\Map_path.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Mapfile">
+    <param name="Name" value="User Defined Mapfile Pane">
+    <param name="Local" value="Topics\The_User_Interface\Obfuscation\User_Defined_Mapfile_Pane.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Message Pane">
+    <param name="Name" value="Message Pane">
+    <param name="Local" value="Topics\The_User_Interface\Message_Pane.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Navigation Pane">
+    <param name="Name" value="Navigation Pane">
+    <param name="Local" value="Topics\The_User_Interface\Navigation_Pane.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Obfuscation">
+    <param name="Name" value="Obfuscation">
+    <param name="Local" value="Definitions\Obfuscation.htm">
+    <param name="Name" value="Map path">
+    <param name="Local" value="Definitions\Map_path.htm">
+    <param name="Name" value="Map Files">
+    <param name="Local" value="Definitions\Map_Files.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Obfuscation Log">
+    <param name="Name" value="Obfuscation log pane">
+    <param name="Local" value="Topics\The_User_Interface\Obfuscation\Obfuscation_log.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Profiles">
+    <param name="Name" value="Profiles">
+    <param name="Local" value="Definitions\Profiles.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Projects">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Edit">
+      <param name="Name" value="Edit project">
+      <param name="Local" value="Functions\Projects\Edit_project.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Edit Dialog">
+      <param name="Name" value="Project Edit">
+      <param name="Local" value="Dialogs\Project_Edit.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="New">
+      <param name="Name" value="Create a new project">
+      <param name="Local" value="Functions\Projects\Create_a_new_project.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Overview">
+      <param name="Name" value="Projects">
+      <param name="Local" value="Definitions\Projects.htm">
+      <param name="Name" value="Load existing project">
+      <param name="Local" value="Functions\Projects\Load_existing_project.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Run">
+      <param name="Name" value="Run project">
+      <param name="Local" value="Functions\Projects\Run_project.htm">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Save">
+      <param name="Name" value="Save project as">
+      <param name="Local" value="Functions\Projects\Save_project_as.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Public References Intact">
+    <param name="Name" value="Leaving Public References Intact">
+    <param name="Local" value="Topics\The_User_Interface\Obfuscation\Leaving_Public_References_Intact.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Leaving">
+      <param name="Name" value="Leaving Public References Intact">
+      <param name="Local" value="Topics\The_User_Interface\Obfuscation\Leaving_Public_References_Intact.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Remove Comments">
+    <param name="Name" value="Compression Settings">
+    <param name="Local" value="Dialogs\Compression_Settings.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Remove whitespace">
+    <param name="Name" value="Compression Settings">
+    <param name="Local" value="Dialogs\Compression_Settings.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Reverse-engineer">
+    <param name="Name" value="Obfuscation log pane">
+    <param name="Local" value="Topics\The_User_Interface\Obfuscation\Obfuscation_log.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Script-includes">
+    <param name="Name" value="Projects">
+    <param name="Local" value="Definitions\Projects.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Settings">
+    <param name="Name" value="Settings">
+    <param name="Local" value="Topics\The_User_Interface\Settings.htm">
+    <param name="Name" value="Map path">
+    <param name="Local" value="Definitions\Map_path.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="String Literal Recombination">
+    <param name="Name" value="Compression">
+    <param name="Local" value="Definitions\Compression.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Subdirectories">
+    <param name="Name" value="Using the Command Line Tool">
+    <param name="Local" value="Topics\Using_the_Command_Line_Tool.htm">
+    <param name="Name" value="Manage Tags">
+    <param name="Local" value="Topics\The_User_Interface\Panes\Manage_Tags.htm">
+    <param name="Name" value="Compress Files">
+    <param name="Local" value="Topics\The_User_Interface\Panes\Compress_Files.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Superfluous Semicolon Removal">
+    <param name="Name" value="Compression">
+    <param name="Local" value="Definitions\Compression.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Tag Management">
+    <param name="Name" value="Tag Management">
+    <param name="Local" value="Definitions\Tag_Management.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Tokenized">
+    <param name="Name" value="Obfuscation">
+    <param name="Local" value="Definitions\Obfuscation.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Tokenizer">
+    <param name="Name" value="User Defined Mapfile Pane">
+    <param name="Local" value="Topics\The_User_Interface\Obfuscation\User_Defined_Mapfile_Pane.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Tokens">
+    <param name="Name" value="Excluding tokens">
+    <param name="Local" value="Topics\The_User_Interface\Obfuscation\Excluding_tokens.htm">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Excluding">
+      <param name="Name" value="Excluding tokens">
+      <param name="Local" value="Topics\The_User_Interface\Obfuscation\Excluding_tokens.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="User-defined map file">
+    <param name="Name" value="User-defined map file">
+    <param name="Local" value="Definitions\User-defined_map_file.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="User Defined Mapfile">
+    <param name="Name" value="Excluding tokens">
+    <param name="Local" value="Topics\The_User_Interface\Obfuscation\Excluding_tokens.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="User Defined Mapfile Pane">
+    <param name="Name" value="User Defined Mapfile Pane">
+    <param name="Local" value="Topics\The_User_Interface\Obfuscation\User_Defined_Mapfile_Pane.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Using">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Command Line Tool">
+      <param name="Name" value="Using the Command Line Tool">
+      <param name="Local" value="Topics\Using_the_Command_Line_Tool.htm">
+    </object>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Using JSCruncher Pro">
+    <param name="Name" value="Getting Started">
+    <param name="Local" value="Getting_Started.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Validator">
+    <param name="Name" value="Message Pane">
+    <param name="Local" value="Topics\The_User_Interface\Message_Pane.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="Whitespace">
+    <param name="Name" value="Compression Settings">
+    <param name="Local" value="Dialogs\Compression_Settings.htm">
+    <param name="Name" value="Project Edit">
+    <param name="Local" value="Dialogs\Project_Edit.htm">
+  </object>
+  <li><object type="text/sitemap">
+    <param name="Name" value="XML">
+    <param name="Name" value="Projects">
+    <param name="Local" value="Definitions\Projects.htm">
+  </object>
+</ul>
+</html>

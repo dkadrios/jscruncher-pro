@@ -1,0 +1,94 @@
+<!--
+Copyright (c) Nebiru Software 2001, 2006
+Compressed and obfuscated by JSCruncher Pro.
+http://nebiru.com/jscruncherpro
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>DomAPI Simple Benchmarking</title>
+  <script type="text/javascript">V61Vf=new Date().getTime();</script>
+  <script type="text/javascript" src="src/core.js"></script>
+  <script type="text/javascript">j_8.loadUnit("debug");j_8.loadUnit("button");function B89h7(){j_8.debug.startProfile();for(a=0;a<100;a++)j_8.J49D(null,100,10+(a*15),50,14,"blue");j_8.debug.endProfile()};function X$0L(){j_8.debug.startProfile();for(a=0;a<100;a++)new Button({x:100,y:10+(a*15),w:50,h:20});j_8.debug.endProfile()};onload=function(){V61Vf=new Date().getTime()-V61Vf;document.getElementById("startDiv").innerHTML="Library came up in "+V61Vf+"ms"};function S9Aq(){V61Vf=new Date().getTime();var p=document.getElementById("test1td");var DL6;for(a=0;a<100;a++){DL6=j_8.Elm({parent:p,x:Math.random()*230,y:Math.random()*185,w:10,h:10,bgColor:"blue"});DL6.innerHTML=a}V61Vf=new Date().getTime()-V61Vf;j_8.getElm("test1result").innerHTML="Complete: "+V61Vf+"ms"};function BM2S$(){V61Vf=new Date().getTime();var p=document.getElementById("test2td");var DL6;for(a=0;a<100;a++){DL6=Label({parent:p,x:Math.random()*230,y:Math.random()*185,w:100,h:20,caption:a})}V61Vf=new Date().getTime()-V61Vf;j_8.getElm("test2result").innerHTML="Complete: "+V61Vf+"ms"};function F465Y(){V61Vf=new Date().getTime();var p=document.getElementById("test3td");var DL6;for(a=0;a<100;a++){DL6=Button({parent:p,x:Math.random()*230,y:Math.random()*185,w:20,h:20,caption:a})}V61Vf=new Date().getTime()-V61Vf;j_8.getElm("test3result").innerHTML="Complete: "+V61Vf+"ms"};</script>
+  <style type="text/css">
+    .main{
+      width:500px;
+      text-align:justify;
+      background-color:#99cccc;
+      color:black;
+      border:1px solid;
+      border-color:silver gray gray silver;
+    }
+    a,a:visited{color:black;background-color:transparent}
+    #startDiv{font-weight:bold;font-size:10pt;}
+    .testTitle{font-weight:bold;font-size:10pt}
+    body{font:8pt verdana,helvetica,sans-serif}
+    .testdiv,.testResults{
+      position:absolute;
+      width:250px;
+      height:200px;
+      overflow:auto;
+    }
+    .testdiv{
+      left:10px;
+      width:240px;
+      /*border:1px solid black;*/
+    }
+    .testResults{
+      left:260px;
+      border:1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+<div id="startDiv">&nbsp;</div>
+<div class="main">
+<b>Instructions</b>:<br />
+<ol>
+<li>Make sure your browser's cache settings are disabled</li>
+<li>Close all instances of your browser to ensure no memory is being used.</li>
+<li>Start a single instance of your browser and immediately load this page.</li>
+<li>Perform only one of the tests listed below and write down the results.</li>
+<li>Close and restart the browser.</li>
+<li>Perform another test.</li>
+<li>Repeat.</li>
+</ol>
+This ensures the most valid results.  Always try to test your machine under the same
+load conditions with as few running applications as possible.
+</div>
+
+<div class="testdiv" style="top:240px">
+  <div class="testTitle">Test 1</div>
+    Create 100 elms.<br /><br />
+    100 blue elms will be created and the time required will be displayed.<br />
+    <a href="#" onclick="S9Aq();return false">[GO]</a>
+    <div id="test1result"></div>
+</div>
+<div class="testResults" style="top:240px" id="test1td">&nbsp;
+</div><br />
+
+<div class="testdiv" style="top:450px">
+  <div class="testTitle">Test 2</div>
+    Create 100 Labels.<br /><br />
+    100 Labels will be created and the time required will be displayed.<br />
+    <a href="#" onclick="BM2S$();return false">[GO]</a>
+    <div id="test2result"></div>
+</div>
+<div class="testResults" style="top:450px" id="test2td">&nbsp;
+</div><br />
+
+<div class="testdiv" style="top:660px">
+  <div class="testTitle">Test 3</div>
+    Create 100 Buttons.<br /><br />
+    100 Buttons will be created and the time required will be displayed.<br />
+    <a href="#" onclick="F465Y();return false">[GO]</a>
+    <div id="test3result"></div>
+</div>
+<div class="testResults" style="top:660px" id="test3td">&nbsp;
+</div><br />
+
+</body>
+</html>
